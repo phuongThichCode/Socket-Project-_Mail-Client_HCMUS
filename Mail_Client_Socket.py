@@ -508,7 +508,6 @@ def main_menu(username, password):
                                         if match_boundary:
                                             boundary = match_boundary.group(1).strip()
                                             parts = email_content.split(boundary)
-                                        parts = []
                                         # Trích xuất văn bản tiêu đề và nội dung
                                         if len(parts) > 2:
                                             
